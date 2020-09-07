@@ -8,3 +8,6 @@ def index(request):
 
 def dev(request):
     return HttpResponse('dev')
+
+def dev2(request):
+    return HttpResponse('dev2')
